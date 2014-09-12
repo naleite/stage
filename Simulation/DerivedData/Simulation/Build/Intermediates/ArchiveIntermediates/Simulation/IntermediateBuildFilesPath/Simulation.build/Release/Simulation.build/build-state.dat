@@ -1,0 +1,225 @@
+TSimulation
+v6
+r1
+cCheck dependencies
+cSymLink /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release/Simulation /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation
+cCompileC DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/IntermediateBuildFilesPath/Simulation.build/Release/Simulation.build/Objects-normal/x86_64/main.o /Users/naleite/Documents/stage/source/Simulation/Simulation/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation normal x86_64
+cGenerateDSYMFile /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release/Simulation.dSYM /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation
+cPBXCp Simulation/Simulation.1 DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/share/man/man1/Simulation.1
+cStrip /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation
+cSetOwnerAndGroup naleite:staff /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation
+cSetMode u+w,go-w,a+rX /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation
+cTouch /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release/Simulation.dSYM
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c00000000534838AC00000000000000AA
+t1397242028
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000531F0DF2000000000000044C
+t1394544114
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531F0DF200000000000001DE
+t1394544114
+s478
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000531F0DFE0000000000000ADC
+t1394544126
+s2780
+
+N/Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release/Simulation
+t2
+s0
+
+N/Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release/Simulation.dSYM
+t1401200040
+s102
+
+N/Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation
+t1401200040
+s44860
+
+N/Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/share/man/man1/Simulation.1
+t2
+s0
+
+N/Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/IntermediateBuildFilesPath/Simulation.build/Release/Simulation.build/Objects-normal/x86_64/Simulation.LinkFileList
+c0000000053849DA800000000000000DE
+t1401200040
+s222
+
+N/Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/IntermediateBuildFilesPath/Simulation.build/Release/Simulation.build/Objects-normal/x86_64/main.o
+t1401200040
+s6552
+
+N/Users/naleite/Documents/stage/source/Simulation/Simulation/Simulation.1
+c000000005375CB6D0000000000000C36
+t1400228717
+s3126
+
+N/Users/naleite/Documents/stage/source/Simulation/Simulation/main.c
+c0000000053848C850000000000000D95
+t1401195653
+s3477
+
+N/Users/naleite/Library/Developer/Xcode/DerivedData/library-gjwqhtnqwdaqeugrtltcmwivkyuj/Build/Products/Debug/liblibrary.a
+c0000000053845EF50000000000013118
+t1401183989
+s78104
+
+N/opt/local/lib/libgsl.0.dylib
+c00000000529C724300000000001B1AF4
+t1385984579
+s1776372
+
+N/opt/local/lib/libgslcblas.0.dylib
+c00000000529C72410000000000034AEC
+t1385984577
+s215788
+
+CBuild AST from /Users/naleite/Documents/stage/source/Simulation/Simulation/main.c
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies282c8128d534b941^64218628d534b941^---0#1#1#--18"Check dependencies36"DD5AFD17-99A0-4505-9927-51D120768425-
+
+CCompileC DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/IntermediateBuildFilesPath/Simulation.build/Release/Simulation.build/Objects-normal/x86_64/main.o /Users/naleite/Documents/stage/source/Simulation/Simulation/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s422892840.533600
+e422892840.859623
+r1
+xCompileC
+xDerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/IntermediateBuildFilesPath/Simulation.build/Release/Simulation.build/Objects-normal/x86_64/main.o
+x/Users/naleite/Documents/stage/source/Simulation/Simulation/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/naleite/Documents/stage/source/Simulation/Simulation/main.c
+d/Users/naleite/Documents/stage/source/Simulation/Simulation/utils_fade.h
+d/Users/naleite/Documents/stage/source/Simulation/Simulation/utils_tirage.h
+d/Users/naleite/Documents/stage/source/Simulation/Simulation/fonctions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/naleite/Documents/stage/source/Simulation/Simulation/main.c259"CompileC DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/IntermediateBuildFilesPath/Simulation.build/Release/Simulation.build/Objects-normal/x86_64/main.o Simulation/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler6abc8828d534b941^e910dc28d534b941^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/naleite/Documents/stage/source/Simulation/Simulation/main.c0000000000000000^3990"CompileC DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/IntermediateBuildFilesPath/Simulation.build/Release/Simulation.build/Objects-normal/x86_64/main.o Simulation/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/naleite/Documents/stage/source/Simulation    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/naleite/Documents/stage/source/Simulation/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/IntermediateBuildFilesPath/Simulation.build/Release/Simulation.build/Simulation-generated-files.hmap -I/Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/IntermediateBuildFilesPath/Simulation.build/Release/Simulation.build/Simulation-own-target-headers.hmap -I/Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/IntermediateBuildFilesPath/Simulation.build/Release/Simulation.build/Simulation-all-target-headers.hmap -iquote /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/IntermediateBuildFilesPath/Simulation.build/Release/Simulation.build/Simulation-project-headers.hmap -I/Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/IntermediateBuildFilesPath/Simulation.build/Release/Simulation.build/DerivedSources/x86_64 -I/Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/IntermediateBuildFilesPath/Simulation.build/Release/Simulation.build/DerivedSources -F/Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release -MMD -MT dependencies -MF /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/IntermediateBuildFilesPath/Simulation.build/Release/Simulation.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/IntermediateBuildFilesPath/Simulation.build/Release/Simulation.build/Objects-normal/x86_64/main.dia -c /Users/naleite/Documents/stage/source/Simulation/Simulation/main.c -o /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/IntermediateBuildFilesPath/Simulation.build/Release/Simulation.build/Objects-normal/x86_64/main.o36"081CFB50-5057-401F-8873-C07517DDC386-
+bD09520CC-C468-4ADE-B2A3-E7D3D2F487F9
+
+CGenerateDSYMFile /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release/Simulation.dSYM /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation
+s422892840.939366
+e422892840.979761
+r1
+xGenerateDSYMFile
+x/Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release/Simulation.dSYM
+x/Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection174"Generate /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release/Simulation.dSYM267"GenerateDSYMFile DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release/Simulation.dSYM DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulationbe86f028d534b941^6fd4fa28d534b941^---0#0#1#-19%DVTDocumentLocation2@172"file:///Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release/Simulation.dSYM00347cc2dfffdf42^776"GenerateDSYMFile DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release/Simulation.dSYM DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation    cd /Users/naleite/Documents/stage/source/Simulation    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation -o /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release/Simulation.dSYM36"C7735CB0-C89B-4E34-9CB3-D21FF40BD7CE-
+bD09520CC-C468-4ADE-B2A3-E7D3D2F487F9
+
+CLd /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation normal x86_64
+s422892840.860600
+e422892840.938360
+r1
+xLd
+x/Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation
+xnormal
+xx86_64
+d/Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/IntermediateBuildFilesPath/Simulation.build/Release/Simulation.build/Objects-normal/x86_64/Simulation.LinkFileList
+d/Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/IntermediateBuildFilesPath/Simulation.build/Release/Simulation.build/Objects-normal/x86_64/main.o
+d/opt/local/lib/libgsl.0.dylib
+d/opt/local/lib/libgslcblas.0.dylib
+d/Users/naleite/Library/Developer/Xcode/DerivedData/library-gjwqhtnqwdaqeugrtltcmwivkyuj/Build/Products/Debug/liblibrary.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection187"Link /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation150"Ld DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation normal x86_64b262dc28d534b941^d63bf028d534b941^---0#0#1#--1734"Ld DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation normal x86_64    cd /Users/naleite/Documents/stage/source/Simulation    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release -L/Users/naleite/Documents/stage/source/Simulation/Simulation -L/opt/local/lib -L/Users/naleite/Library/Developer/Xcode/DerivedData/library-gjwqhtnqwdaqeugrtltcmwivkyuj/Build/Products/Debug -F/Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release -filelist /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/IntermediateBuildFilesPath/Simulation.build/Release/Simulation.build/Objects-normal/x86_64/Simulation.LinkFileList -mmacosx-version-min=10.9 -lgsl.0 -lgslcblas.0 -llibrary -Xlinker -dependency_info -Xlinker /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/IntermediateBuildFilesPath/Simulation.build/Release/Simulation.build/Objects-normal/x86_64/Simulation_dependency_info.dat -o /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation36"C64B2A88-BCF4-413A-9D6B-45F70CA920DC-
+bD09520CC-C468-4ADE-B2A3-E7D3D2F487F9
+
+CPBXCp Simulation/Simulation.1 DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/share/man/man1/Simulation.1
+s422892840.980529
+e422892840.982526
+r1
+xPBXCp
+xSimulation/Simulation.1
+xDerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/share/man/man1/Simulation.1
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection145"Copy DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/share/man/man1/Simulation.1170"PBXCp Simulation/Simulation.1 DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/share/man/man1/Simulation.11617fb28d534b941^f889fb28d534b941^---0#0#1#-19%DVTDocumentLocation2@196"file:///Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/share/man/man1/Simulation.100347cc2dfffdf42^715"PBXCp Simulation/Simulation.1 DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/share/man/man1/Simulation.1    cd /Users/naleite/Documents/stage/source/Simulation    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/naleite/Documents/stage/source/Simulation/Simulation/Simulation.1 /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/share/man/man136"9FCE4ADC-293B-43F1-8805-E0E9B2F6DD83-
+bD09520CC-C468-4ADE-B2A3-E7D3D2F487F9
+
+CSetMode u+w,go-w,a+rX /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation
+s422892841.006360
+e422892841.010848
+r1
+xSetMode
+xu+w,go-w,a+rX
+x/Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection155"SetMode u+w,go-w,a+rX DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation155"SetMode u+w,go-w,a+rX DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation3eae0129d534b941^71c80229d534b941^---0#0#1#-19%DVTDocumentLocation2@189"file:///Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation0000000000000000^428"SetMode u+w,go-w,a+rX DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation    cd /Users/naleite/Documents/stage/source/Simulation    /bin/chmod -RH u+w,go-w,a+rX /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation36"D34A257B-F907-46DA-B95C-D047A7796905-
+bD09520CC-C468-4ADE-B2A3-E7D3D2F487F9
+
+CSetOwnerAndGroup naleite:staff /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation
+s422892840.998427
+e422892841.005891
+r1
+xSetOwnerAndGroup
+xnaleite:staff
+x/Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection164"SetOwnerAndGroup naleite:staff DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation164"SetOwnerAndGroup naleite:staff DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation37a6ff28d534b941^fc8a0129d534b941^---0#0#1#-19%DVTDocumentLocation2@189"file:///Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation0000000000000000^442"SetOwnerAndGroup naleite:staff DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation    cd /Users/naleite/Documents/stage/source/Simulation    /usr/sbin/chown -RH naleite:staff /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation36"2B0958F6-8E21-4DBA-8838-1F4A26A85619-
+bD09520CC-C468-4ADE-B2A3-E7D3D2F487F9
+
+CStrip /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation
+s422892840.983065
+e422892840.997946
+r1
+xStrip
+x/Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Strip DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation139"Strip DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulationcbbafb28d534b941^297bff28d534b941^---0#0#1#-19%DVTDocumentLocation2@189"file:///Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation0000000000000000^476"Strip DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation    cd /Users/naleite/Documents/stage/source/Simulation    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation36"60FD82D1-94CE-4FFF-911E-E29D4726BB67-
+bD09520CC-C468-4ADE-B2A3-E7D3D2F487F9
+
+CSymLink /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release/Simulation /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation
+s422892840.524388
+e422892840.532692
+r1
+xSymLink
+x/Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release/Simulation
+x/Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection168"Process /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release/Simulation253"SymLink DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release/Simulation DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation1f4c8628d534b941^2ffc8828d534b941^---0#0#1#--670"SymLink DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release/Simulation DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation    cd /Users/naleite/Documents/stage/source/Simulation    /bin/ln -sf /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/InstallationBuildProductsLocation/usr/local/bin/Simulation /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release/Simulation36"4ACB027A-22CB-4A2F-BE64-C18E90CBEE2E-
+bD09520CC-C468-4ADE-B2A3-E7D3D2F487F9
+
+CTouch /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release/Simulation.dSYM
+s422892841.011390
+e422892841.016049
+r1
+xTouch
+x/Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release/Simulation.dSYM
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection171"Touch /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release/Simulation.dSYM122"Touch DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release/Simulation.dSYM23f50229d534b941^081d0429d534b941^---0#0#1#--367"Touch DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release/Simulation.dSYM    cd /Users/naleite/Documents/stage/source/Simulation    /usr/bin/touch -c /Users/naleite/Documents/stage/source/Simulation/DerivedData/Simulation/Build/Intermediates/ArchiveIntermediates/Simulation/BuildProductsPath/Release/Simulation.dSYM36"96CB5F84-A20F-4B27-A5C1-25C07CE1FED5-
+bD09520CC-C468-4ADE-B2A3-E7D3D2F487F9
+

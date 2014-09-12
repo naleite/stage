@@ -1,0 +1,377 @@
+/*
+ Le programme de la simulation
+ Commencer le 15 mai 2014 a IPR
+ */
+
+# include <stdio.h>
+# include <time.h>
+# include <math.h>
+# include <stdlib.h>
+# include <getopt.h>
+# include "librairie.h"
+# include <sys/timeb.h>
+# include <sys/timeb.h>
+//# include "DOP_est_1img.h"
+# include "detection.h"
+//# include "utils_fade.h"
+//# include "utils_tirage.h"
+
+#define H0 0
+#define H1 1
+
+
+/******* ICI, Les declarations des variables globales ***********/
+
+double Imoyco=100;
+double DOP=0.8;
+int ordre=1;
+int reals=100;
+int Nw=10; //Nb de pixels des images w et w_ d'hypo H0 et H1.
+int Nw_=100;
+
+/*fin des declarations globales*/
+
+
+/*
+ Generer des tableaux 2D de donnees, de dimension Nw*R et Nw_ * R
+ Arguments: Nw -- Nombre de pixels que w contient.
+ Nw_ __ Nombre de pixels que w_ contient.
+ R -- Nombre de realisations.
+ tab_w -- le tableau de resultat genere pour w.
+ tab_w_ -- le tableau de resultat genere pour w_.
+ */
+
+void generer_image(int Nw,int Nw_, int R, double **tab_w, double **tab_w_,double **tab,double **tab_DOP, int est_hypothese){
+	//Les codes a completer...
+	
+	double *image_X_w; // I//
+	double *image_Y_w; // I|_
+	double *image_w;//I_tot
+	double *image_X_w_; // I//
+	double *image_Y_w_; // I|_
+	double *image_w_;//I_tot
+	
+	image_X_w=d_alloue_1d(Nw);
+	image_Y_w=d_alloue_1d( Nw);
+	image_X_w_=d_alloue_1d( Nw_);
+	image_Y_w_=d_alloue_1d( Nw_);
+	image_w_=d_alloue_1d( Nw_);
+	image_w=d_alloue_1d( Nw);
+	
+	if (est_hypothese==0) { //Generation en fonction d'hypothese (Match H0 H1)
+		//H0: meme
+		/*Boucle de generation de donnees simulees pour w*/
+		for (int i=0; i<reals; i++) {
+			//Pour une realisation, on genere l'image w
+			for(int j = 0; j<Nw;j++){
+				image_X_w[j]=tirage_gamma((1+DOP)*Imoyco/2, ordre);
+				image_Y_w[j]=tirage_gamma((1-DOP)*Imoyco/2, ordre);
+				image_w[j]=image_X_w[j]+image_Y_w[j];//somme de I// etI|_
+				tab[i][j]=image_w[j];
+				tab_DOP[i][j]= fabs(image_X_w-image_Y_w)/image_w[j];
+				printf("H%d,real:%d w%d: %f \n",est_hypothese,i,j,image_w[j]);//DEBUG
+			}//fin du boucle de generation image w
+			tab_w[i]=image_w;
+			
+			//Pour une realisation, on genere l'image w_
+			for(int j = 0; j<Nw_;j++){
+				image_X_w_[j]=tirage_gamma((1+DOP)*Imoyco/2, ordre);
+				image_Y_w_[j]=tirage_gamma((1-DOP)*Imoyco/2, ordre);
+				image_w_[j]=image_X_w_[j]+image_Y_w_[j];//somme de I// etI|_
+				tab[i][j+Nw]=image_w_[j];
+				tab_DOP[i][j+Nw]= fabs(image_X_w_-image_Y_w_)/image_w_[j];
+				printf("H%d,real:%d,w_%d: %f \n",est_hypothese,i,j,image_w_[j]);//DEBUG
+				
+			}//fin du boucle de generation image w_
+			tab_w_[i]=image_w_;
+
+		}//fin du boucle de generation reals fois des images pour Hypothese H0
+	
+//		//afficher TAB
+//		for (int i=0;i<reals;i++){
+//			for (int j=0; j<Nw+Nw_; j++) {
+//				printf("H%d, tab[%d][%d]:\t %f \n", est_hypothese,i,j,tab[i][j]);
+//				printf("H%d,real:%d,DOP_ICEO%d: %f \n",est_hypothese,i,j,tab_DOP[i][j]);//DEBUG
+//			}
+//		}
+		
+	} else {
+		//H1: diff
+		/*==========================================================================================*/
+		/*JE SAIS PAS LE LOI DE PIXEL*/
+		/*Boucle de generation de donnees simulees pour w*/
+		for (int i=0; i<reals; i++) {
+			//Pour une realisation, on genere l'image H1
+			for(int j = 0; j<Nw;j++){
+				image_X_w[j]=tirage_gamma((1+DOP)*Imoyco/2, ordre);
+				image_Y_w[j]=tirage_gamma((1-DOP)*Imoyco/2, ordre);
+				image_w[j]=image_X_w[j]+image_Y_w[j];//somme de I// etI|_
+				tab[i][j]=image_w[j];
+				tab_DOP[i][j]= fabs(image_X_w[j]-image_Y_w[j])/image_w[j];
+				printf("H%d real:%d,w%d: %f \n",est_hypothese,i,j,image_w[j]);//DEBUG
+			}//fin du boucle de generation image w
+			
+			tab_w[i]=image_w;
+			
+			//Pour une realisation, on genere l'image w_
+			for(int j = 0; j<Nw_;j++){
+				image_X_w_[j]=tirage_gamma((1+DOP)*Imoyco/2, ordre);
+				image_Y_w_[j]=tirage_gamma((1-DOP)*Imoyco/2, ordre);
+				image_w_[j]=image_X_w_[j]+image_Y_w_[j];//somme de I// etI|_
+				tab[i][j+Nw]=image_w_[j];
+				tab_DOP[i][j+Nw]= fabs(image_X_w_[j]-image_Y_w_[j])/image_w_[j];
+				printf("H%d,real:%d,w_%d: %f \n",est_hypothese,i,j,image_w_[j]);//DEBUG
+			}//fin du boucle de generation image w_
+			
+			tab_w_[i]=image_w_;
+			
+		}//fin du boucle de generation reals fois des Hypothese H1
+	}
+	
+	
+	//afficher TAB
+	for (int i=0;i<reals;i++){
+		for (int j=0; j<Nw+Nw_; j++) {
+			printf("H%d, tab[%d][%d]:\t %f \n", est_hypothese,i,j,tab[i][j]);
+			
+		}
+	}
+	
+	for (int i=0;i<reals;i++){
+		for (int j=0; j<Nw+Nw_; j++) {
+			
+			printf("H%d,DOP_ICEO[%d][%d]: %f \n",est_hypothese,i,j,tab_DOP[i][j]);//DEBUG
+		}
+	}
+
+
+	//Free Memory
+	free(image_w);
+	free(image_w_);
+	free(image_X_w);
+	free(image_X_w_);
+	free(image_Y_w);
+	free(image_Y_w_);
+	
+}//fin du generer_Tableaux
+
+
+
+/*
+ Tests de detection pour les hypo H0 et H1
+ Arguments:
+ tab_H0: Les donnees simulees d'hypo H0.
+ tab_H1: Les donnees simulees d'hypo H1.
+ tab_tD_H0: Tableau 1D de dimention R(ealisations) pour H0, qui contient le resultat du test.
+ tab_tD_H1: Tableau 1D de dimention R(ealisations) pour H1, qui contient le resultat du test.
+ */
+void test_Detection(double *tab_H0_moy, double *tab_H0_var,double *tab_H1_moy,double *tab_H1_var, double *tab_tD_H0, double *tab_tD_H1, int mode){
+	//les codes precises a completer...
+	
+	
+	//choix de mode pour calculer
+	switch (mode) {
+		case 0:
+			//calculer I_tot
+			{
+			printf("Calculer I_tot...\n");
+			//H0 TOT:
+				tab_tD_H0=tab_H0_moy;
+				tab_tD_H1=tab_H1_moy;
+			break;
+			}
+		case 1:
+			//calculer beta1
+			printf("Calculer Beta1.\n");
+			
+			for (int i=0; i<reals; i++) {
+				double variance_H0=tab_H0_var[i];
+				double variance_H1=tab_H1_var[i];
+				tab_tD_H0[i]=2*ordre*variance_H0/(Imoyco*Imoyco)-1;
+				tab_tD_H1[i]=2*ordre*variance_H1/(Imoyco*Imoyco)-1;
+				printf("H0_Beta1 [%d]: %f  \n",i,tab_tD_H0[i]);
+				printf("H1_Beta1 [%d]: %f \n",i,tab_tD_H1[i]);
+			}
+			
+			break;
+			
+		case 2:
+			//calculer beta2
+			printf("Calculer Beta2.\n");
+			for (int i=0; i<reals; i++) {
+				double variance_H0=tab_H0_var[i];
+				double variance_H1=tab_H1_var[i];
+				double moy_H0=tab_H0_moy[i];
+				double moy_H1=tab_H1_moy[i];
+				tab_tD_H0[i]=2*ordre*variance_H0/(moy_H0*moy_H0)-1;
+				tab_tD_H1[i]=2*ordre*variance_H1/(moy_H1*moy_H1)-1;
+				printf("H0_Beta2 [%d]: %f  \n",i,tab_tD_H0[i]);
+				printf("H1_Beta2 [%d]: %f \n",i,tab_tD_H1[i]);
+			}
+			
+			break;
+			
+			
+		default:
+			printf("ECHEC de test de detection avec CODE de mode %d", mode);
+			break;
+	}
+	
+	
+	
+	
+}//fin du test_Detection.
+
+
+
+/*************P.Principal**************/
+//==================================================================================================
+//==================================================================================================
+
+int main(int argc, const char * argv[])
+{
+/*Ci-dessous c'est juste pour tester un peu les liens et les interfaces.
+//    int largeur=100;
+//    int hauteur=100;
+//    int ordre=1;
+//    double Imoyco=100.;
+//    double DOP=0.6;
+//    int reals=1000;
+//    char nom_fich[]="data.dat";
+//    
+//    //Pour Hypothese 0: w et w_ ont meme statistique.
+//    DOP_est_1img(largeur, hauteur, ordre, Imoyco, DOP, reals, nom_fich);
+fin du test*/
+	/*
+	 ETAPE 0: Les definitions des variables et des travaux preparatoires: les allocations, la verification de params, etc....
+	 */
+	//ICI, les definitions:
+	
+	double **h0_tab_w, **h0_tab_w_, **h1_tab_w, **h1_tab_w_; //tab de stocker la simulation d'images.
+	
+	double **h0_tab, **h1_tab, *h0_tab_tot, *h1_tab_tot; //tab de somme de w et w_ (e.x. h0_tab=h0_tab_w + h0_tab_w_, I_tot=I_x+I_y), tab de resultat des tests de detection
+	
+	double *h0_test_beta1,*h0_test_beta2, *h0_test_DOP; //resultats des tests de detection pour H0
+	
+	double *h1_test_beta1,*h1_test_beta2, *h1_test_DOP;//resultats des tests de detection pour H1
+	
+	
+	FILE *f=fopen("test.dat", "w");
+	
+	//allocation des tableaux:
+	
+	h0_tab_w= (double **) d_alloue_2d(reals,Nw); //param: hauteur, largeur
+	h0_tab_w_= (double **) d_alloue_2d(reals,Nw_);
+	h1_tab_w= (double **) d_alloue_2d(reals,Nw);
+	h1_tab_w_= (double **) d_alloue_2d(reals,Nw_);
+	
+	h0_tab = (double **) d_alloue_2d(reals,Nw_+Nw); //tableau A = Nw+Nw_
+	h1_tab = (double **) d_alloue_2d(reals,Nw_+Nw);
+	
+	h0_tab_tot = (double *) d_alloue_1d(reals);//laisser sa, utiliise peut-etre
+	h1_tab_tot = (double *) d_alloue_1d(reals);
+
+	h0_test_beta1 = (double *) d_alloue_1d(reals);
+	h1_test_beta1 = (double *) d_alloue_1d(reals);
+	
+	h0_test_beta2 = (double *) d_alloue_1d(reals);
+	h1_test_beta2 = (double *) d_alloue_1d(reals);
+	
+	h0_test_DOP = (double *) d_alloue_1d(reals);
+	h1_test_DOP = (double *) d_alloue_1d(reals);
+	
+	//fin d'alloction des tab
+	//fin d'etape 0.
+	/*
+	 ETAPE 1: La generation des tableaux des donnees pour H0(meme statistique), et H1 (different stat)
+	 */
+	
+	//H0:
+	double **h0_tab_DOP;
+	h0_tab_DOP=d_alloue_2d(reals, Nw+Nw_);
+	generer_image(Nw, Nw_, reals, h0_tab_w, h0_tab_w_,h0_tab,h0_tab_DOP, H0);
+	
+	
+	//H1:
+	double **h1_tab_DOP;
+	h1_tab_DOP=d_alloue_2d(reals, Nw+Nw_);
+	generer_image(Nw, Nw_, reals, h1_tab_w, h1_tab_w_,h1_tab,h1_tab_DOP, H1);
+	//Mettre les w et w_ en ensemble de H1
+	
+	
+	//fin d‘etape 1...
+	/*
+	 ETAPE 2: A partir des donnees simulees, calculer les tests de detection
+	 */
+	double h0_tab_moy[reals],h0_tab_var[reals];
+	for (int i=0; i<reals; i++) {
+		h0_tab_moy[i]=d_moyenne(Nw+Nw_, h0_tab[i]);//calculer les moy et var de chacune ligne(Realisatioin)
+		h0_tab_var[i]=d_variance(Nw+Nw_, h0_tab[i], h0_tab_moy[i]);
+		printf("tD_DOP moyenne%d: %f, var%d: %f .\n",i,h0_tab_moy[i],i,h0_tab_var[i]);//afficher moy et var de chacune R
+		
+		
+	}
+
+	double h1_tab_moy[reals],h1_tab_var[reals];
+	for (int i=0; i<reals; i++) {
+		h1_tab_moy[i]=d_moyenne(Nw+Nw_, h1_tab[i]);//calculer les moy et var de chacune ligne(Realisatioin)
+		h1_tab_var[i]=d_variance(Nw+Nw_, h1_tab[i], h1_tab_moy[i]);
+		printf("tD_DOP moyenne%d: %f, var%d: %f .\n",i,h1_tab_moy[i],i,h1_tab_var[i]);//afficher moy et var de chacune R
+		
+		
+	}
+
+	
+	test_Detection(h0_tab_moy,h0_tab_var, h1_tab_moy,h1_tab_var, h0_tab_tot, h1_tab_tot,0); //test de detection de calculer tot
+	test_Detection(h0_tab_moy,h0_tab_var, h1_tab_moy,h1_tab_var, h0_test_beta1, h1_test_beta1,1); // ________________________ beta1
+	test_Detection(h0_tab_moy,h0_tab_var, h1_tab_moy,h1_tab_var, h0_test_beta2, h1_test_beta2,2);// ________________________ beta2
+	
+	
+	
+	
+	
+	//fin d'etape 2.
+	/*
+	 ETAPE 3: 
+		Calculer les courbe COR
+		Calculer pour chaque test (H0,H1), les histo, les Pd Pfa. Ressemblera a la partie du programme detection.
+	 */
+	
+	//a) calculer histo
+	
+	int pt_nb_bin = d_max(d_max_1d(h0_tab_tot, reals), d_max_1d(h1_tab_tot, reals));
+	
+	double *tab_P =d_alloue_1d(pt_nb_bin);
+	double *tab_Q =d_alloue_1d(pt_nb_bin);
+	double *tab_X =d_alloue_1d(pt_nb_bin+1);
+	
+	// CrÈation abscisse histogrammes
+	for (int k=0; k<pt_nb_bin; k++)
+    {
+		tab_X[k]=(double) k - 0.5;
+    }
+	tab_X[pt_nb_bin]=(double) pt_nb_bin - 0.5;
+	
+	
+	calcul_histo( h0_tab_tot, reals, (double) 0., (double) pt_nb_bin, pt_nb_bin, tab_P);
+	
+	calcul_histo( h1_tab_tot, reals, (double) 0., (double) pt_nb_bin, pt_nb_bin, tab_Q);
+	
+	// Calcul des courbes Pd/Pfa ‡ partir des histos
+	calcul_Pd_Pfa(pt_nb_bin, tab_P,tab_Q,reals);
+	
+//	double *h0_crit_c, *h0_crit_f;
+//	double *h1_crit_c, *h1_crit_f;
+//	h0_crit_c=d_alloue_1d(reals);
+//	h0_crit_f=d_alloue_1d(reals);
+//	h1_crit_c=d_alloue_1d(reals);
+//	h1_crit_f=d_alloue_1d(reals);
+	
+	
+	//fin d'etape 3.
+	
+	
+    return 0;
+
+}
+

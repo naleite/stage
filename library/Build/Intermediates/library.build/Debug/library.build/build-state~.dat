@@ -1,0 +1,257 @@
+Tlibrary
+v6
+r1
+cCheck dependencies
+cCompileC Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/mat.o /Users/naleite/Documents/stage/source/library/mat.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/hellofunc.o /Users/naleite/Documents/stage/source/library/hellofunc.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/utils_tirage.o /Users/naleite/Documents/stage/source/library/utils_tirage.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/utils_fade.o /Users/naleite/Documents/stage/source/library/utils_fade.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/hellomake.o /Users/naleite/Documents/stage/source/library/hellomake.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/fonctions.o /Users/naleite/Documents/stage/source/Simulation/Simulation/fonctions.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/naleite/Documents/stage/source/library/Build/Products/Debug/liblibrary.a normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c00000000534838AC00000000000000AA
+t1397242028
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000531F0DF2000000000000044C
+t1394544114
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531F0DF200000000000001DE
+t1394544114
+s478
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000531F0DFE0000000000000ADC
+t1394544126
+s2780
+
+N/Users/naleite/Documents/stage/source/Simulation/Simulation/fonctions.c
+c0000000053876F560000000000003CE7
+t1401384790
+s15591
+
+N/Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/fonctions.o
+t1401389611
+s20248
+
+N/Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/hellofunc.o
+t1401389611
+s2564
+
+N/Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/hellomake.o
+t1401389611
+s3540
+
+N/Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/library.LinkFileList
+c000000005387822A0000000000000322
+t1401389610
+s802
+
+N/Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/mat.o
+t1401389611
+s2632
+
+N/Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/utils_fade.o
+t1401389611
+s21152
+
+N/Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/utils_tirage.o
+t1401389611
+s33304
+
+N/Users/naleite/Documents/stage/source/library/Build/Products/Debug/liblibrary.a
+t2
+s0
+
+N/Users/naleite/Documents/stage/source/library/hellofunc.c
+c000000005368E2EE0000000000000062
+t1399382766
+s98
+
+N/Users/naleite/Documents/stage/source/library/hellomake.c
+c00000000537275A20000000000000246
+t1400010146
+s582
+
+N/Users/naleite/Documents/stage/source/library/mat.c
+c0000000053732EBD0000000000000054
+t1400057533
+s84
+
+N/Users/naleite/Documents/stage/source/library/utils_fade.c
+c000000005385DB2A00000000000034A2
+t1401281322
+s13474
+
+N/Users/naleite/Documents/stage/source/library/utils_tirage.c
+c0000000053760A02000000000000BBB4
+t1400244738
+s48052
+
+N/opt/local/lib/libgsl.0.dylib
+c00000000529C724300000000001B1AF4
+t1385984579
+s1776372
+
+N/opt/local/lib/libgslcblas.0.dylib
+c00000000529C72410000000000034AEC
+t1385984577
+s215788
+
+CBuild AST from /Users/naleite/Documents/stage/source/Simulation/Simulation/fonctions.c
+r0
+
+CBuild AST from /Users/naleite/Documents/stage/source/library/hellofunc.c
+r0
+
+CBuild AST from /Users/naleite/Documents/stage/source/library/hellomake.c
+r0
+
+CBuild AST from /Users/naleite/Documents/stage/source/library/mat.c
+r0
+
+CBuild AST from /Users/naleite/Documents/stage/source/library/utils_fade.c
+r0
+
+CBuild AST from /Users/naleite/Documents/stage/source/library/utils_tirage.c
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies558ad9aab937b941^0ceadfaab937b941^---0#1#1#--18"Check dependencies36"6AD324C2-9411-4ACD-927A-623A9A89101E-
+
+CCompileC Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/fonctions.o /Users/naleite/Documents/stage/source/Simulation/Simulation/fonctions.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s423082411.214121
+e423082411.280764
+r1
+xCompileC
+xBuild/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/fonctions.o
+x/Users/naleite/Documents/stage/source/Simulation/Simulation/fonctions.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/naleite/Documents/stage/source/Simulation/Simulation/fonctions.c
+d/Users/naleite/Documents/stage/source/Simulation/Simulation/utils_fade.h
+d/Users/naleite/Documents/stage/source/Simulation/Simulation/utils_tirage.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/naleite/Documents/stage/source/Simulation/Simulation/fonctions.c228"CompileC Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/fonctions.o /Users/naleite/Documents/stage/source/Simulation/Simulation/fonctions.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler81eb36abb937b941^dfe047abb937b941^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/naleite/Documents/stage/source/Simulation/Simulation/fonctions.c0000000000000000^2521"CompileC Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/fonctions.o /Users/naleite/Documents/stage/source/Simulation/Simulation/fonctions.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/naleite/Documents/stage/source/library    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/naleite/Documents/stage/source/library/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/library.hmap -I/Users/naleite/Documents/stage/source/library/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/DerivedSources/x86_64 -I/Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/DerivedSources -F/Users/naleite/Documents/stage/source/library/Build/Products/Debug -MMD -MT dependencies -MF /Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/fonctions.d --serialize-diagnostics /Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/fonctions.dia -c /Users/naleite/Documents/stage/source/Simulation/Simulation/fonctions.c -o /Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/fonctions.o36"B8DBE1B9-00AB-442A-9207-EF3F34181932-
+bB2B116AF-3C7A-4ADB-BD48-190EB7BE5A8B
+
+CCompileC Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/hellofunc.o /Users/naleite/Documents/stage/source/library/hellofunc.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s423082410.877073
+e423082411.213863
+r1
+xCompileC
+xBuild/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/hellofunc.o
+x/Users/naleite/Documents/stage/source/library/hellofunc.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/naleite/Documents/stage/source/library/hellofunc.c
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/naleite/Documents/stage/source/library/hellofunc.c168"CompileC Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/hellofunc.o hellofunc.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler03ebe0aab937b941^27c236abb937b941^---0#0#1#-19%DVTDocumentLocation2@64"file:///Users/naleite/Documents/stage/source/library/hellofunc.c0000000000000000^2447"CompileC Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/hellofunc.o hellofunc.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/naleite/Documents/stage/source/library    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/naleite/Documents/stage/source/library/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/library.hmap -I/Users/naleite/Documents/stage/source/library/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/DerivedSources/x86_64 -I/Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/DerivedSources -F/Users/naleite/Documents/stage/source/library/Build/Products/Debug -MMD -MT dependencies -MF /Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/hellofunc.d --serialize-diagnostics /Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/hellofunc.dia -c /Users/naleite/Documents/stage/source/library/hellofunc.c -o /Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/hellofunc.o36"3BC3D43D-CA9A-40DE-8708-B3D7F9E51A12-
+bB2B116AF-3C7A-4ADB-BD48-190EB7BE5A8B
+
+CCompileC Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/hellomake.o /Users/naleite/Documents/stage/source/library/hellomake.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s423082411.196071
+e423082411.242096
+r1
+xCompileC
+xBuild/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/hellomake.o
+x/Users/naleite/Documents/stage/source/library/hellomake.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/naleite/Documents/stage/source/library/hellomake.c
+d/Users/naleite/Documents/stage/source/library/librairie.h
+d/Users/naleite/Documents/stage/source/Simulation/Simulation/fonctions.h
+d/Users/naleite/Documents/stage/source/library/hellofunc.h
+d/Users/naleite/Documents/stage/source/library/utils_fade.h
+d/Users/naleite/Documents/stage/source/library/utils_tirage.h
+d/Users/naleite/Documents/stage/source/library/DOP_est_1img.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/naleite/Documents/stage/source/library/hellomake.c168"CompileC Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/hellomake.o hellomake.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler736332abb937b941^fdfa3dabb937b941^---0#0#1#-19%DVTDocumentLocation2@64"file:///Users/naleite/Documents/stage/source/library/hellomake.c0000000000000000^2447"CompileC Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/hellomake.o hellomake.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/naleite/Documents/stage/source/library    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/naleite/Documents/stage/source/library/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/library.hmap -I/Users/naleite/Documents/stage/source/library/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/DerivedSources/x86_64 -I/Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/DerivedSources -F/Users/naleite/Documents/stage/source/library/Build/Products/Debug -MMD -MT dependencies -MF /Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/hellomake.d --serialize-diagnostics /Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/hellomake.dia -c /Users/naleite/Documents/stage/source/library/hellomake.c -o /Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/hellomake.o36"BDDB64D5-8786-4CEC-A54A-4A1EE7D49EDF-
+bB2B116AF-3C7A-4ADB-BD48-190EB7BE5A8B
+
+CCompileC Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/mat.o /Users/naleite/Documents/stage/source/library/mat.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s423082410.876290
+e423082411.195626
+r1
+xCompileC
+xBuild/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/mat.o
+x/Users/naleite/Documents/stage/source/library/mat.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/naleite/Documents/stage/source/library/mat.c
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/naleite/Documents/stage/source/library/mat.c156"CompileC Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/mat.o mat.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilera374e1aab937b941^d31732abb937b941^---0#0#1#-19%DVTDocumentLocation2@58"file:///Users/naleite/Documents/stage/source/library/mat.c0000000000000000^2411"CompileC Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/mat.o mat.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/naleite/Documents/stage/source/library    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/naleite/Documents/stage/source/library/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/library.hmap -I/Users/naleite/Documents/stage/source/library/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/DerivedSources/x86_64 -I/Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/DerivedSources -F/Users/naleite/Documents/stage/source/library/Build/Products/Debug -MMD -MT dependencies -MF /Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/mat.d --serialize-diagnostics /Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/mat.dia -c /Users/naleite/Documents/stage/source/library/mat.c -o /Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/mat.o36"EBD0EEB5-32A1-4993-B1A9-26CB84E6CDDE-
+bB2B116AF-3C7A-4ADB-BD48-190EB7BE5A8B
+
+CCompileC Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/utils_fade.o /Users/naleite/Documents/stage/source/library/utils_fade.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s423082410.879611
+e423082411.272492
+r1
+xCompileC
+xBuild/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/utils_fade.o
+x/Users/naleite/Documents/stage/source/library/utils_fade.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/naleite/Documents/stage/source/library/utils_fade.c
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/naleite/Documents/stage/source/library/utils_fade.c170"CompileC Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/utils_fade.o utils_fade.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler4548e1aab937b941^9cc345abb937b941^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/naleite/Documents/stage/source/library/utils_fade.c0000000000000000^2453"CompileC Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/utils_fade.o utils_fade.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/naleite/Documents/stage/source/library    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/naleite/Documents/stage/source/library/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/library.hmap -I/Users/naleite/Documents/stage/source/library/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/DerivedSources/x86_64 -I/Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/DerivedSources -F/Users/naleite/Documents/stage/source/library/Build/Products/Debug -MMD -MT dependencies -MF /Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/utils_fade.d --serialize-diagnostics /Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/utils_fade.dia -c /Users/naleite/Documents/stage/source/library/utils_fade.c -o /Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/utils_fade.o36"0F468095-ADFB-4199-9633-3B65ECAF5845-
+bB2B116AF-3C7A-4ADB-BD48-190EB7BE5A8B
+
+CCompileC Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/utils_tirage.o /Users/naleite/Documents/stage/source/library/utils_tirage.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s423082410.879525
+e423082411.302717
+r1
+xCompileC
+xBuild/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/utils_tirage.o
+x/Users/naleite/Documents/stage/source/library/utils_tirage.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/naleite/Documents/stage/source/library/utils_tirage.c
+o/Users/naleite/Documents/stage/source/library/utils_tirage.c:276:5: warning: implicit declaration of function 'd_annul_mat' is invalid in C99 [-Wimplicit-function-declaration]
+o    d_annul_mat(idim,jdim,sortie);
+o    ^
+o/Users/naleite/Documents/stage/source/library/utils_tirage.c:279:9: warning: implicit declaration of function 'd_addmat' is invalid in C99 [-Wimplicit-function-declaration]
+o        d_addmat(idim,jdim,sortie,sortie,tampon);
+o        ^
+o/Users/naleite/Documents/stage/source/library/utils_tirage.c:499:12: warning: implicit declaration of function 'd_round' is invalid in C99 [-Wimplicit-function-declaration]
+o  N_zero = d_round( alpha*maj / (1-fano_factor) );  
+o           ^
+o/Users/naleite/Documents/stage/source/library/utils_tirage.c:502:27: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+o  fprintf(stderr,"Valeur g<E9>n<E9>r<E9>e max de l'illumination image d'entree %g \n", (1-fano_factor)*N_zero);
+o                          ^~~~ ~~~~ ~~~~
+o/Users/naleite/Documents/stage/source/library/utils_tirage.c:503:65: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+o  fprintf(stderr,"Attention: Facteur de correction de l'intensit<E9>: %g \n", (1-fano_factor)*N_zero/(alpha*maj));
+o                                                                ^~~~
+o/Users/naleite/Documents/stage/source/library/utils_tirage.c:976:50: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+o    else {fprintf(stderr,"\n Parametres non tabul<E9>s pour un tel sqz_factor !"); exit(0);}
+o                                                 ^~~~
+o6 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/naleite/Documents/stage/source/library/utils_tirage.c174"CompileC Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/utils_tirage.o utils_tirage.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler8c85e1aab937b941^2fc14dabb937b941^-1648"/Users/naleite/Documents/stage/source/library/utils_tirage.c:276:5: warning: implicit declaration of function 'd_annul_mat' is invalid in C99 [-Wimplicit-function-declaration]    d_annul_mat(idim,jdim,sortie);    ^/Users/naleite/Documents/stage/source/library/utils_tirage.c:279:9: warning: implicit declaration of function 'd_addmat' is invalid in C99 [-Wimplicit-function-declaration]        d_addmat(idim,jdim,sortie,sortie,tampon);        ^/Users/naleite/Documents/stage/source/library/utils_tirage.c:499:12: warning: implicit declaration of function 'd_round' is invalid in C99 [-Wimplicit-function-declaration]  N_zero = d_round( alpha*maj / (1-fano_factor) );             ^/Users/naleite/Documents/stage/source/library/utils_tirage.c:502:27: warning: illegal character encoding in string literal [-Winvalid-source-encoding]  fprintf(stderr,"Valeur g<E9>n<E9>r<E9>e max de l'illumination image d'entree %g \n", (1-fano_factor)*N_zero);                          ^~~~ ~~~~ ~~~~/Users/naleite/Documents/stage/source/library/utils_tirage.c:503:65: warning: illegal character encoding in string literal [-Winvalid-source-encoding]  fprintf(stderr,"Attention: Facteur de correction de l'intensit<E9>: %g \n", (1-fano_factor)*N_zero/(alpha*maj));                                                                ^~~~/Users/naleite/Documents/stage/source/library/utils_tirage.c:976:50: warning: illegal character encoding in string literal [-Winvalid-source-encoding]    else {fprintf(stderr,"\n Parametres non tabul<E9>s pour un tel sqz_factor !"); exit(0);}                                                 ^~~~6 warnings generated.6(36%IDEClangDiagnosticActivityLogMessage2@64"Implicit declaration of function 'd_annul_mat' is invalid in C99-423082411#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@67"file:///Users/naleite/Documents/stage/source/library/utils_tirage.c0000000000000000^275#4#275#4#7944#0#14"Semantic Issue--2@61"Implicit declaration of function 'd_addmat' is invalid in C99-423082411#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@67"file:///Users/naleite/Documents/stage/source/library/utils_tirage.c0000000000000000^278#8#278#8#8066#0#14"Semantic Issue--2@60"Implicit declaration of function 'd_round' is invalid in C99-423082411#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@67"file:///Users/naleite/Documents/stage/source/library/utils_tirage.c0000000000000000^498#11#498#11#17512#0#14"Semantic Issue--2@44"Illegal character encoding in string literal-423082411#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@67"file:///Users/naleite/Documents/stage/source/library/utils_tirage.c0000000000000000^501#26#501#26#17721#0#29"Lexical or Preprocessor Issue3(3@67"file:///Users/naleite/Documents/stage/source/library/utils_tirage.c0000000000000000^501#26#501#27#17721#1#3@67"file:///Users/naleite/Documents/stage/source/library/utils_tirage.c0000000000000000^501#28#501#29#17723#1#3@67"file:///Users/naleite/Documents/stage/source/library/utils_tirage.c0000000000000000^501#30#501#31#17725#1#-2@44"Illegal character encoding in string literal-423082411#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@67"file:///Users/naleite/Documents/stage/source/library/utils_tirage.c0000000000000000^502#64#502#64#17862#0#29"Lexical or Preprocessor Issue1(3@67"file:///Users/naleite/Documents/stage/source/library/utils_tirage.c0000000000000000^502#64#502#65#17862#1#-2@44"Illegal character encoding in string literal-423082411#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@67"file:///Users/naleite/Documents/stage/source/library/utils_tirage.c0000000000000000^975#49#975#49#33438#0#29"Lexical or Preprocessor Issue1(3@67"file:///Users/naleite/Documents/stage/source/library/utils_tirage.c0000000000000000^975#49#975#50#33438#1#-0#0#1#-19%DVTDocumentLocation4@67"file:///Users/naleite/Documents/stage/source/library/utils_tirage.c0000000000000000^2465"CompileC Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/utils_tirage.o utils_tirage.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/naleite/Documents/stage/source/library    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/naleite/Documents/stage/source/library/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/library.hmap -I/Users/naleite/Documents/stage/source/library/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/DerivedSources/x86_64 -I/Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/DerivedSources -F/Users/naleite/Documents/stage/source/library/Build/Products/Debug -MMD -MT dependencies -MF /Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/utils_tirage.d --serialize-diagnostics /Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/utils_tirage.dia -c /Users/naleite/Documents/stage/source/library/utils_tirage.c -o /Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/utils_tirage.o36"83A599CD-5BAE-483A-843A-838299FA48B0-
+bB2B116AF-3C7A-4ADB-BD48-190EB7BE5A8B
+
+CLibtool /Users/naleite/Documents/stage/source/library/Build/Products/Debug/liblibrary.a normal x86_64
+s423082411.303784
+e423082411.320026
+r1
+xLibtool
+x/Users/naleite/Documents/stage/source/library/Build/Products/Debug/liblibrary.a
+xnormal
+xx86_64
+owarning: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /opt/local/lib/libgsl.0.dylib is a dynamic library, not added to the static library
+owarning: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /opt/local/lib/libgslcblas.0.dylib is a dynamic library, not added to the static library
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Libtool Build/Products/Debug/liblibrary.a normal x86_6455"Libtool Build/Products/Debug/liblibrary.a normal x86_64f5d94dabb937b941^07ed51abb937b941^-395"warning: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /opt/local/lib/libgsl.0.dylib is a dynamic library, not added to the static librarywarning: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /opt/local/lib/libgslcblas.0.dylib is a dynamic library, not added to the static library2(21%IDEActivityLogMessage2@185"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /opt/local/lib/libgsl.0.dylib is a dynamic library, not added to the static library-423082411#0#195#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#40"Apple Mach-O Librarian (libtool) Warning--2@190"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /opt/local/lib/libgslcblas.0.dylib is a dynamic library, not added to the static library-423082411#195#200#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#40"Apple Mach-O Librarian (libtool) Warning--0#0#1#--773"Libtool Build/Products/Debug/liblibrary.a normal x86_64    cd /Users/naleite/Documents/stage/source/library    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/naleite/Documents/stage/source/library/Build/Products/Debug -L/opt/local/lib -filelist /Users/naleite/Documents/stage/source/library/Build/Intermediates/library.build/Debug/library.build/Objects-normal/x86_64/library.LinkFileList /opt/local/lib/libgsl.0.dylib /opt/local/lib/libgslcblas.0.dylib -o /Users/naleite/Documents/stage/source/library/Build/Products/Debug/liblibrary.a36"51C1B5EA-D686-42AD-BF0A-6232B21C0D00-
+bB2B116AF-3C7A-4ADB-BD48-190EB7BE5A8B
+
